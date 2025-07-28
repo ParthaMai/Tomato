@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-      <ToastContainer /> // this is add a notification when success fully add item
+      <ToastContainer /> {/* this is add a notification when success fully add item */}
       <Navbar/>
       <hr />
       <div className="app-content">

@@ -26,7 +26,7 @@ const MyOrders = () => {
 
   return (
     <div className='my-orders'>
-        {/* <h2>My Orders</h2>
+        <h2>My Orders</h2>
         <div className="container">
             {data.map((order,index)=>{
                 return (
@@ -36,12 +36,19 @@ const MyOrders = () => {
                             if(index===order.items.length-1){
                                 return item.name+" x "+item.quantity
                             }
+                            else{
+                                return item.name+" x "+item.quantity+", ";// means if i only last item we dont need to koma
+                            }
                         })}</p>
-                    </div>
+                        <p>₹{order.amount}.00</p>
+                        <p>Items:{order.items.length} </p>
+                        <p><span>&#x25cf;</span><b>{order.status}</b></p>  {/*This hexacode for bullet point */}
+                        <button onClick={fetchOrders}>Track Order</button>
+                    </div>    
                 )
                 
             })}
-        </div> */}
+        </div>
       
     </div>
   )

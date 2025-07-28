@@ -2,7 +2,8 @@ import { useState } from 'react'
 import './Add.css'
 import { assets } from '../../assets/assets'
 import axios from "axios" // This is for store the data in backend
-import { toast } from 'react-toastify' // this is add a notification when success fully add item
+import { toast } from 'react-toastify'
+ /* this is add a notification when success fully add item  */
 
 const Add = ({url}) => {
 
