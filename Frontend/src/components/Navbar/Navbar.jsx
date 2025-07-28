@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import './navbar.css'
+import './Navbar.css'
 import { assets } from '../../assets/frontend_assets/assets'
 import { Link, useNavigate } from 'react-router-dom'; /* this is when i click menu then automatic page goes down in menu part */
 import { StoreContext } from '../../context/StoreContext';
