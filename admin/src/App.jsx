@@ -9,7 +9,7 @@ import List from './pages/List/List'
 
 const App = () => {
 
-  const url = "http://localhost:4000";
+  const url = "https://tomato-1d03.onrender.com";
 
   return (
     <div>
